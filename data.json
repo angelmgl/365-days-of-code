@@ -3,7 +3,7 @@
         "_id": "001",
         "date": "14/07/2021",
         "name": "Confetti Falling",
-        "url": "/confetti-falling",
+        "url": "365-days-of-code/confetti-falling",
         "stack": ["HTML", "CSS", "JS"]
     }
 ]
