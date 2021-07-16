@@ -5,5 +5,12 @@
         "name": "Confetti Falling",
         "url": "confetti-falling",
         "stack": ["HTML", "CSS", "JS"]
+    },
+    {
+        "_id": "002",
+        "date": "15/07/2021",
+        "name": "Weather Card",
+        "url": "weather-card",
+        "stack": ["HTML", "CSS"]
     }
 ]

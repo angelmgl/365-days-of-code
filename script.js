@@ -7,7 +7,7 @@ fetch("data.json")
 function renderProject({ date, name, url, stack }) {
     const item = document.createElement("LI")
     const project = document.createElement("A");
-    project.textContent = `${name} -||- ${date} -||- ${stack.join(", ")}`;
+    project.textContent = name;
     project.href = url;
 
     item.appendChild(project);
