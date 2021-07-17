@@ -12,5 +12,12 @@
         "name": "Weather Card",
         "url": "weather-card",
         "stack": ["HTML", "CSS"]
+    },
+    {
+        "_id": "003",
+        "date": "16/07/2021",
+        "name": "Modern Navmenu",
+        "url": "modern-navmenu",
+        "stack": ["HTML", "CSS", "JS"]
     }
 ]
