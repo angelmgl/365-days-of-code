@@ -19,5 +19,12 @@
         "name": "Modern Navmenu",
         "url": "modern-navmenu",
         "stack": ["HTML", "CSS", "JS"]
+    },
+    {
+        "_id": "004",
+        "date": "17/07/2021",
+        "name": "Basic Accordion",
+        "url": "basic-accordion",
+        "stack": ["HTML", "CSS", "JS"]
     }
 ]
