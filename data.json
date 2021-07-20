@@ -33,5 +33,12 @@
         "name": "Ball Game",
         "url": "ball-game",
         "stack": ["HTML", "CSS", "JS"]
+    },
+    {
+        "_id": "006",
+        "date": "19/07/2021",
+        "name": "Digital Clock",
+        "url": "digital-clock",
+        "stack": ["HTML", "CSS", "JS"]
     }
 ]
