@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background-color: #ff9ff3;
+}
+
+.container {
+    width: 95%;
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form label {
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.form #guaranies {
+    width: 100%;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.results {
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.results .row {
+    padding: 0px 25px;
+    display: flex;
+    align-items: center;
+    background-color: #ff9ff334;
+}
+
+.results .row:nth-child(odd) {
+    background-color: #fff;
+}
+
+.flag {
+    width: 25px;
+    margin-right: 20px;
+}

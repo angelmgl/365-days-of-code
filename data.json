@@ -47,5 +47,12 @@
         "name": "Password Eyes",
         "url": "password-eyes",
         "stack": ["HTML", "CSS", "JS"]
+    },
+    {
+        "_id": "008",
+        "date": "21/07/2021",
+        "name": "Currency Converter",
+        "url": "currency-converter",
+        "stack": ["HTML", "CSS", "JS"]
     }
 ]

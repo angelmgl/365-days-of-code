@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Patrón Observador</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <section class="container">
+            <h1>Currency Converter</h1>
+
+            <div class="form">
+                <label for="guaranies">Guaraníes</label>
+                <input
+                    type="number"
+                    id="guaranies"
+                    placeholder="Introduzca el valor en guaraníes..."
+                />
+            </div>
+
+            <div class="results">
+                <h2>Convertions</h2>
+                <div class="row">
+                    <img src="img/reino-unido.png" class="flag" />
+                    <p>Libras: <span id="libra"></span> £</p>
+                </div>
+                <div class="row">
+                    <img src="img/union-europea.png" class="flag" />
+                    <p>Euros: <span id="euro"></span> €</p>
+                </div>
+                <div class="row">
+                    <img src="img/estados-unidos.png" class="flag" />
+                    <p>Dólares: <span id="dolar"></span> $</p>
+                </div>
+                <div class="row">
+                    <img src="img/brasil.png" class="flag" />
+                    <p>Reales: <span id="real"></span> R$</p>
+                </div>
+                <div class="row">
+                    <img src="img/porcelana.png" class="flag" />
+                    <p>Yuanes: <span id="yuan"></span> ¥</p>
+                </div>
+                <div class="row">
+                    <img src="img/mexico.png" class="flag" />
+                    <p>Pesos Mexicanos: <span id="mxn"></span> $</p>
+                </div>
+                <div class="row">
+                    <img src="img/japon.png" class="flag" />
+                    <p>Yen: <span id="yen"></span> ¥</p>
+                </div>
+                <div class="row">
+                    <img src="img/colombia.png" class="flag" />
+                    <p>Pesos Colombianos: <span id="cop"></span> $</p>
+                </div>
+                <div class="row">
+                    <img src="img/argentina.png" class="flag" />
+                    <p>Pesos Argentinos: <span id="peso"> $</span></p>
+                </div>
+            </div>
+        </section>
+
+        <script src="main.js"></script>
+    </body>
+</html>
