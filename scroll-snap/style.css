@@ -1,0 +1,25 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.featured {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.featured img {
+    scroll-snap-align: start;
+}
+
+.thumbnails {
+    width: 300px;
+    margin: 5px auto;
+}

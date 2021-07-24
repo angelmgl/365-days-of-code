@@ -61,5 +61,12 @@
         "name": "Cool Button",
         "url": "cool-button",
         "stack": ["HTML", "CSS"]
+    },
+    {
+        "_id": "010",
+        "date": "23/07/2021",
+        "name": "Scroll Snap",
+        "url": "scroll-snap",
+        "stack": ["HTML", "CSS"]
     }
 ]
