@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Checkout Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form class="payment">
+            <div class="bg"></div>
+            <div class="card">
+                <img src="img/chip.png" class="chip" />
+                <div class="logo mastercard"></div>
+                <div class="logo visa">VISA</div>
+                <div class="logo default">Logo</div>
+                <input
+                    type="text"
+                    placeholder="Bank Name"
+                    class="bank"
+                    required
+                />
+                <div class="form-body">
+                    <div class="inputBox">
+                        <span>Card No</span>
+                        <input
+                            type="text"
+                            id="cardNumber"
+                            placeholder="0123 4567 8901 2345"
+                            maxlength="19"
+                            minlength="19"
+                            required
+                        />
+                    </div>
+                    <div class="inputBox">
+                        <span>Card Holder</span>
+                        <input type="text" placeholder="John Doe" required />
+                    </div>
+                    <div class="group">
+                        <div class="inputBox">
+                            <span>Valid Thru</span>
+                            <input
+                                type="text"
+                                placeholder="MM/YY"
+                                maxlength="5"
+                                required
+                            />
+                        </div>
+                        <div class="inputBox">
+                            <span>CCV</span>
+                            <input
+                                type="password"
+                                placeholder="***"
+                                maxlength="3"
+                                required
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn" type="submit">Confirm and Pay</button>
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+</html>
