@@ -82,5 +82,12 @@
         "name": "Masonry Grid",
         "url": "masonry-grid",
         "stack": ["HTML", "CSS"]
+    },
+    {
+        "_id": "013",
+        "date": "27/07/2021",
+        "name": "Easy Switch",
+        "url": "easy-switch",
+        "stack": ["HTML", "CSS"]
     }
 ]
