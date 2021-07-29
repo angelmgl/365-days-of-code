@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.sci {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    margin: 20px;
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    text-decoration: none;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 25px 35px rgba(0,0,0,0.1);
+    transition: background 0.25s;
+    cursor: pointer;
+}
+
+.sci li .fb:hover {
+    background-color: #1877f2;
+}
+.sci li .ig:hover {
+    background-color: #e410df;
+}
+.sci li .yt:hover {
+    background-color: #ff1232;
+}
+.sci li .tw:hover {
+    background-color: #28a7ff;
+}
+
+.sci li a .fa {
+    transition: 0.25s;
+    pointer-events: none;
+}
+
+.sci li a:hover .fa {
+    color: #fff;
+    transform: scale(1.75) translateZ(50px);
+}
+
+.js-tilt-glare {
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 700px) {
+    .sci {
+        flex-direction: row;
+    }
+
+    .sci li::before {
+        content: attr(data-text);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, calc(-50% + 120px));
+        font-size: 14vw;
+        pointer-events: none;
+        font-weight: 600;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    
+    .sci li:hover::before {
+        opacity: 0.1;
+        transform: translate(-50%, calc(-50% + 150px));
+    }
+}

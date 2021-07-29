@@ -89,5 +89,12 @@
         "name": "Easy Switch",
         "url": "easy-switch",
         "stack": ["HTML", "CSS"]
+    },
+    {
+        "_id": "014",
+        "date": "28/07/2021",
+        "name": "Social Hover",
+        "url": "social-hover",
+        "stack": ["HTML", "CSS", "JS"]
     }
 ]
