@@ -110,5 +110,12 @@
         "name": "Scroll Progress",
         "url": "scroll-progress",
         "stack": ["HTML", "CSS", "JS"]
+    },
+    {
+        "_id": "017",
+        "date": "03/08/2021",
+        "name": "3D Cube",
+        "url": "3d-cube",
+        "stack": ["HTML", "CSS"]
     }
 ]
