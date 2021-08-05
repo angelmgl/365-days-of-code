@@ -117,5 +117,12 @@
         "name": "3D Cube",
         "url": "3d-cube",
         "stack": ["HTML", "CSS"]
+    },
+    {
+        "_id": "018",
+        "date": "04/08/2021",
+        "name": "File Preview",
+        "url": "file-preview",
+        "stack": ["HTML", "CSS", "JS"]
     }
 ]
