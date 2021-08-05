@@ -5,8 +5,11 @@
     font-family: 'Segoe UI', sans-serif;
 }
 
+body {
+    counter-reset: project;
+}
+
 header {
-    padding: 15px;
     background-color: teal;
     color: azure;
 }
@@ -15,4 +18,64 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#projects {
+    max-width: 600px;
+    margin: 10px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.row {
+    padding: 5px 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+.row:nth-child(odd) {
+    background-color: #cfdfdf;
+}
+
+.row:hover {
+    background-color: #77cdcd;
+}
+
+.col {
+    width: 33.3%;
+}
+
+.col .title {
+    font-weight: 600;
+}
+
+.col .title::before {
+    counter-increment: project;
+    content: counter(project);
+    margin-right: 10px;
+}
+
+.col .date {
+    display: block;
+    text-align: center;
+}
+
+.col:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.col .tech {
+    width: 35px;
+    margin: 0 3px;
+    border-radius: 50%;
 }

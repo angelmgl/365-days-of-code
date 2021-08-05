@@ -4,125 +4,125 @@
         "date": "14/07/2021",
         "name": "Confetti Falling",
         "url": "confetti-falling",
-        "stack": ["HTML", "CSS", "JS"]
+        "stack": ["html", "css", "javascript"]
     },
     {
         "_id": "002",
         "date": "15/07/2021",
         "name": "Weather Card",
         "url": "weather-card",
-        "stack": ["HTML", "CSS"]
+        "stack": ["html", "css"]
     },
     {
         "_id": "003",
         "date": "16/07/2021",
         "name": "Modern Navmenu",
         "url": "modern-navmenu",
-        "stack": ["HTML", "CSS", "JS"]
+        "stack": ["html", "css", "javascript"]
     },
     {
         "_id": "004",
         "date": "17/07/2021",
         "name": "Basic Accordion",
         "url": "basic-accordion",
-        "stack": ["HTML", "CSS", "JS"]
+        "stack": ["html", "css", "javascript"]
     },
     {
         "_id": "005",
         "date": "18/07/2021",
         "name": "Ball Game",
         "url": "ball-game",
-        "stack": ["HTML", "CSS", "JS"]
+        "stack": ["html", "css", "javascript"]
     },
     {
         "_id": "006",
         "date": "19/07/2021",
         "name": "Digital Clock",
         "url": "digital-clock",
-        "stack": ["HTML", "CSS", "JS"]
+        "stack": ["html", "css", "javascript"]
     },
     {
         "_id": "007",
         "date": "20/07/2021",
         "name": "Password Eyes",
         "url": "password-eyes",
-        "stack": ["HTML", "CSS", "JS"]
+        "stack": ["html", "css", "javascript"]
     },
     {
         "_id": "008",
         "date": "21/07/2021",
         "name": "Currency Converter",
         "url": "currency-converter",
-        "stack": ["HTML", "CSS", "JS"]
+        "stack": ["html", "css", "javascript"]
     },
     {
         "_id": "009",
         "date": "22/07/2021",
         "name": "Cool Button",
         "url": "cool-button",
-        "stack": ["HTML", "CSS"]
+        "stack": ["html", "css"]
     },
     {
         "_id": "010",
         "date": "23/07/2021",
         "name": "Scroll Snap",
         "url": "scroll-snap",
-        "stack": ["HTML", "CSS"]
+        "stack": ["html", "css"]
     },
     {
         "_id": "011",
         "date": "24/07/2021",
         "name": "Checkout Form",
         "url": "checkout-form",
-        "stack": ["HTML", "CSS", "JS"]
+        "stack": ["html", "css", "javascript"]
     },
     {
         "_id": "012",
         "date": "25/07/2021",
         "name": "Masonry Grid",
         "url": "masonry-grid",
-        "stack": ["HTML", "CSS"]
+        "stack": ["html", "css"]
     },
     {
         "_id": "013",
         "date": "27/07/2021",
         "name": "Easy Switch",
         "url": "easy-switch",
-        "stack": ["HTML", "CSS"]
+        "stack": ["html", "css"]
     },
     {
         "_id": "014",
         "date": "28/07/2021",
         "name": "Social Hover",
         "url": "social-hover",
-        "stack": ["HTML", "CSS", "JS"]
+        "stack": ["html", "css", "javascript"]
     },
     {
         "_id": "015",
         "date": "30/07/2021",
         "name": "Draggable Div",
         "url": "draggable-div",
-        "stack": ["HTML", "CSS", "JS"]
+        "stack": ["html", "css", "javascript"]
     },
     {
         "_id": "016",
         "date": "31/07/2021",
         "name": "Scroll Progress",
         "url": "scroll-progress",
-        "stack": ["HTML", "CSS", "JS"]
+        "stack": ["html", "css", "javascript"]
     },
     {
         "_id": "017",
         "date": "03/08/2021",
         "name": "3D Cube",
         "url": "3d-cube",
-        "stack": ["HTML", "CSS"]
+        "stack": ["html", "css"]
     },
     {
         "_id": "018",
         "date": "04/08/2021",
         "name": "File Preview",
         "url": "file-preview",
-        "stack": ["HTML", "CSS", "JS"]
+        "stack": ["html", "css", "javascript"]
     }
 ]
