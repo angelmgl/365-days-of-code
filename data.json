@@ -124,5 +124,12 @@
         "name": "File Preview",
         "url": "file-preview",
         "stack": ["html", "css", "javascript"]
+    },
+    {
+        "_id": "019",
+        "date": "08/08/2021",
+        "name": "Afterload Popup",
+        "url": "afterload-popup",
+        "stack": ["html", "css", "javascript"]
     }
 ]
