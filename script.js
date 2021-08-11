@@ -7,7 +7,8 @@ fetch("data.json")
 function renderProject({ date, name, url, stack }) {
     // create a new project row
     let row = document.createElement("A");
-    row.setAttribute("href", url);
+    row.setAttribute("href", `projects/${url}`);
+    row.setAttribute("target", "_blank");
     row.classList.add("row");
     container.appendChild(row);
 

@@ -79,3 +79,17 @@ h2 {
     margin: 0 3px;
     border-radius: 50%;
 }
+
+footer {
+    padding: 25px;
+    background-color: teal;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ccf;
+}
