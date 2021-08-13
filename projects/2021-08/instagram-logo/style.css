@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+                to top right,
+                #FEDA77,
+                #F58529,
+                #DD2A7B,
+                #8134AF,
+                #515BD4
+    );
+    background-size: 200% 200%;
+    border-radius: 20%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+    animation: animate 5s infinite;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.square:hover {
+    transform: scale(1.05);
+}
+
+.square::after {
+    content: "";
+    height: 160px;
+    width: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 12px solid #fff;
+    border-radius: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border: 12px solid #fff;
+    border-radius: 50%;
+}
+
+.circle::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}

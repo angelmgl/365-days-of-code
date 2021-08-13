@@ -152,5 +152,12 @@
         "name": "Polaroid Img",
         "url": "2021-08/polaroid-img",
         "stack": ["html", "css"]
+    },
+    {
+        "_id": "023",
+        "date": "12/08/2021",
+        "name": "Instagram Logo",
+        "url": "2021-08/instagram-logo",
+        "stack": ["html", "css"]
     }
 ]
