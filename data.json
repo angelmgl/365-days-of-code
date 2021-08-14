@@ -159,5 +159,12 @@
         "name": "Instagram Logo",
         "url": "2021-08/instagram-logo",
         "stack": ["html", "css"]
+    },
+    {
+        "_id": "024",
+        "date": "13/08/2021",
+        "name": "Star Shape",
+        "url": "2021-08/star-shape",
+        "stack": ["html", "css"]
     }
 ]
