@@ -80,6 +80,12 @@ h2 {
     border-radius: 50%;
 }
 
+@media only screen and (max-width: 600px) {
+    .col .tech {
+        width: 25px;
+    }
+}
+
 footer {
     padding: 25px;
     background-color: teal;
