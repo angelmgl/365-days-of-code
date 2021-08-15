@@ -166,5 +166,12 @@
         "name": "Star Shape",
         "url": "2021-08/star-shape",
         "stack": ["html", "css"]
+    },
+    {
+        "_id": "025",
+        "date": "14/08/2021",
+        "name": "Analog Clock",
+        "url": "2021-08/analog-clock",
+        "stack": ["html", "css", "javascript"]
     }
 ]
