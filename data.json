@@ -173,5 +173,12 @@
         "name": "Analog Clock",
         "url": "2021-08/analog-clock",
         "stack": ["html", "css", "javascript"]
+    },
+    {
+        "_id": "026",
+        "date": "17/08/2021",
+        "name": "Blurry navbar",
+        "url": "2021-08/blurry-navbar",
+        "stack": ["html", "css"]
     }
 ]
