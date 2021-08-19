@@ -180,5 +180,12 @@
         "name": "Blurry navbar",
         "url": "2021-08/blurry-navbar",
         "stack": ["html", "css"]
+    },
+    {
+        "_id": "027",
+        "date": "18/08/2021",
+        "name": "Olimpia Kit",
+        "url": "2021-08/olimpia-kit",
+        "stack": ["html", "css"]
     }
 ]

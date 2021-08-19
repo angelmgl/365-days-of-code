@@ -1,0 +1,143 @@
+*, 
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#dedfde, #454647, #212121);
+}
+
+.container {
+    position: relative;
+}
+
+.head {
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    left: 55px;
+    top: -7px;
+    background-color: #f1f1f1;
+    border-top: 15px solid #000;
+    border-right: 10px solid #000;
+    border-bottom: 2px solid #000;
+    border-left: 10px solid #000;
+    border-radius: 50%;
+    z-index: 99;
+}
+
+.tshirt {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    background: linear-gradient(
+        #f0f0f0 30%, 
+        #111 34%, 
+        #000 40%, 
+        #111 57%, 
+        #f0f0f0 61%);
+    border-top: 10px solid #000;
+    border-bottom: 1px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.tshirt img {
+    position: absolute;
+    z-index: 99;
+}
+
+.tshirt .olimpia { 
+    top: 20px;
+    right: 20px;
+}
+
+.tshirt .meta {
+    top: 30px;
+    left: 20px;
+}
+
+.tshirt .vision {
+    top: 45px;
+    left: 55px;
+}
+
+.tshirt .tigo {
+    top: 105px;
+    left: 60px;
+}
+
+.tshirt::before {
+    content: "";
+    height: 100px;
+    width: 70px;
+    position: absolute;
+    left: -47px;
+    border-left: 10px solid #000;
+    border-bottom: 10px solid #000;
+    background-color: #f0f0f0;
+    transform: rotate(50deg);
+    border-radius: 10px;
+}
+
+.tshirt::after {
+    content: "";
+    height: 100px;
+    width: 70px;
+    position: absolute;
+    right: -47px;
+    border-right: 10px solid #000;
+    border-bottom: 10px solid #000;
+    background-color: #f0f0f0;
+    transform: rotate(-50deg);
+    border-radius: 10px;
+}
+
+.pants {
+    width: 195px;
+    height: 55px;
+    margin-top: -2px;
+    margin-left: 2px;
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+.pants::before {
+    content: "";
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    transform: rotate(7deg);
+    background-color: #f0f0f0;
+    border-bottom: 5px solid #000;
+    border-radius: 5px;
+}
+
+.pants::after {
+    content: "";
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    right: 0;
+    transform: rotate(-7
+    deg);
+    background-color: #f0f0f0;
+    border-bottom: 5px solid #000;
+    border-radius: 5px;
+}
+
+.pants img {
+    position: absolute;
+    top: 65px;
+    z-index: 99;
+    transform: rotate(7deg);
+}
