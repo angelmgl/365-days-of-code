@@ -128,8 +128,7 @@ body {
     height: 120px;
     position: absolute;
     right: 0;
-    transform: rotate(-7
-    deg);
+    transform: rotate(-7deg);
     background-color: #f0f0f0;
     border-bottom: 5px solid #000;
     border-radius: 5px;
