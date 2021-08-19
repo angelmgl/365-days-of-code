@@ -187,5 +187,12 @@
         "name": "Olimpia Kit",
         "url": "2021-08/olimpia-kit",
         "stack": ["html", "css"]
+    },
+    {
+        "_id": "028",
+        "date": "19/08/2021",
+        "name": "Layered Text",
+        "url": "2021-08/layered-text",
+        "stack": ["html", "css"]
     }
 ]
