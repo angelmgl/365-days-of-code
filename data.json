@@ -194,5 +194,12 @@
         "name": "Layered Text",
         "url": "2021-08/layered-text",
         "stack": ["html", "css"]
+    },
+    {
+        "_id": "029",
+        "date": "20/08/2021",
+        "name": "Copy Clipboard",
+        "url": "2021-08/copy-clipboard",
+        "stack": ["html", "css", "javascript"]
     }
 ]
