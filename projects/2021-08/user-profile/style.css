@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+        175deg, 
+        #2365df 50%, 
+        #ff9f43 50%,
+        #fafaff 70%);
+}
+
+.card {
+    min-width: 300px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(75, 50, 68, 0.35);
+    overflow: hidden;
+    background-image: linear-gradient(
+        -175deg, 
+        #2365df 30%,
+        #fafcff 30%);
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-header .pic {
+    border: 7px solid #2365df;
+    border-radius: 50%;
+}
+
+.card-header .name {
+    font-size: 1.5em;
+}
+
+.card-header .username {
+    font-size: 1em;
+    color: #74b9ff;
+}
+
+.card-body {
+    margin-top: 10px;
+}
+
+.card-body .data-row {
+    padding: 7px 0;
+}
+
+.data-row i {
+    margin-right: 7px;
+    color: #ff9f43;
+    font-size: 1.25em;
+    transform: translateY(2px);
+}
+
+.social {
+    width: 100%;
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    background-color: #ff9f43;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    background-color: #ef8f33;
+    transform: scale(1.15);
+}
+
+.cta {
+    height: 40px;
+    width: 100%;
+    background-color: #2365df;
+    color: #fafcff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta i {
+    margin-left: 10px;
+}
+
+.cta:hover {
+    background-color: #1355cf;
+}
