@@ -75,21 +75,24 @@ body {
 }
 
 .social-icon {
+    height: 35px;
+    width: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 35px;
-    width: 35px;
     background-color: #ff9f43;
-    color: #fff;
     border-radius: 50%;
-    transition: all 0.5s ease;
+    transition: all 0.4s ease;
     cursor: pointer;
 }
 
 .social-icon:hover {
     background-color: #ef8f33;
     transform: scale(1.15);
+}
+
+.social-icon i {
+    color: #fff;
 }
 
 .cta {
