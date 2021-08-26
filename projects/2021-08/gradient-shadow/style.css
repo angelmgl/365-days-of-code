@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121323;
+}
+
+.grid {
+    min-height: 100vh;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.box:hover {
+    transform: scale(1.01);
+}
+
+.box::before {
+    content: "";
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    transform: translateY(7%) scale(.85);
+    filter: blur(40px);
+}
+
+/* COLORS */
+.color-1 {
+    background: linear-gradient(
+        to bottom right,
+        #7b4397,
+        #dc2430
+    );
+}
+
+.color-1::before {
+    background: linear-gradient(
+        to right,
+        #7b4397,
+        #dc2430
+    );
+}
+
+.color-2 {
+    background: linear-gradient(
+        to bottom right,
+        #136a8a,
+        #267871
+    );
+}
+
+.color-2::before {
+    background: linear-gradient(
+        to right,
+        #136a8a,
+        #267871
+    );
+}
+
+.color-3 {
+    background: linear-gradient(
+        to bottom right,
+        #00bf8f,
+        #001510
+    );
+}
+
+.color-3::before {
+    background: linear-gradient(
+        to right,
+        #00bf8f,
+        #001510
+    );
+}
+
+.color-4 {
+    background: linear-gradient(
+        to bottom right,
+        #ff0084,
+        #33001b
+    );
+}
+
+.color-4::before {
+    background: linear-gradient(
+        to right,
+        #ff0084,
+        #33001b
+    );
+}
+
+.color-5 {
+    background: linear-gradient(
+        to bottom right,
+        #9d50bb,
+        #6e48aa
+    );
+}
+
+.color-5::before {
+    background: linear-gradient(
+        to right,
+        #9d50bb,
+        #6e48aa
+    );
+}
+
+.color-6 {
+    background: linear-gradient(
+        to bottom right,
+        #6441A5,
+        #2a0845
+    );
+}
+
+.color-6::before {
+    background: linear-gradient(
+        to right,
+        #6441A5,
+        #2a0845
+    );
+}
+
+.color-7 {
+    background: linear-gradient(
+        to bottom right,
+        #ffb347,
+        #ffcc33
+    );
+}
+
+.color-7::before {
+    background: linear-gradient(
+        to right,
+        #ffb347,
+        #ffcc33
+    );
+}
+
+.color-8 {
+    background: linear-gradient(
+        to bottom right,
+        #948E99,
+        #2E1437
+    );
+}
+
+.color-8::before {
+    background: linear-gradient(
+        to right,
+        #948E99,
+        #2E1437
+    );
+}
+
+.color-9 {
+    background: linear-gradient(
+        to bottom right,
+        #fdfc47,
+        #24fe41
+    );
+}
+
+.color-9::before {
+    background: linear-gradient(
+        to right,
+        #fdfc47,
+        #24fe41
+    );
+}
+
+.color-10 {
+    background: linear-gradient(
+        to bottom right,
+        #83a4d4,
+        #b6fbff
+    );
+}
+
+.color-10::before {
+    background: linear-gradient(
+        to right,
+        #83a4d4,
+        #b6fbff
+    );
+}
+
+.color-11 {
+    background: linear-gradient(
+        to bottom right,
+        #fe8c00,
+        #f83600
+    );
+}
+
+.color-11::before {
+    background: linear-gradient(
+        to right,
+        #fe8c00,
+        #f83600
+    );
+}
+
+.color-12 {
+    background: linear-gradient(
+        to bottom right,
+        #00c6ff,
+        #0072ff
+    );
+}
+
+.color-12::before {
+    background: linear-gradient(
+        to right,
+        #00c6ff,
+        #0072ff
+    );
+}

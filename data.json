@@ -222,5 +222,12 @@
         "name": "Button Styles",
         "url": "2021-08/button-styles",
         "stack": ["html", "css"]
+    },
+    {
+        "_id": "033",
+        "date": "25/08/2021",
+        "name": "Gradient Shadow",
+        "url": "2021-08/gradient-shadow",
+        "stack": ["html", "css"]
     }
 ]
