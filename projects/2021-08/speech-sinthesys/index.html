@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lector</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8db5d00c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Bienvenido al Lector</h1>
+    <div class="form">
+        <label for="texto">Escribe aquí</label> <br>
+        <textarea name="texto" id="texto" rows="10"></textarea> <br>
+        <div class="botonera">
+            <button type="button" onclick="leer()" class="leer">Leer</button>
+            <button type="button" onclick="pausar()" class="pause" id="btn-play"><i class="fas fa-pause" id="play"></i></button>
+            <button type="button" onclick="cancelar()" class="stop"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

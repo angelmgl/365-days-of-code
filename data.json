@@ -229,5 +229,12 @@
         "name": "Gradient Shadow",
         "url": "2021-08/gradient-shadow",
         "stack": ["html", "css"]
+    },
+    {
+        "_id": "034",
+        "date": "26/08/2021",
+        "name": "Speech Sinthesys",
+        "url": "2021-08/speech-sinthesys",
+        "stack": ["html", "css", "javascript"]
     }
 ]
