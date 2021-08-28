@@ -236,5 +236,12 @@
         "name": "Speech Sinthesys",
         "url": "2021-08/speech-sinthesys",
         "stack": ["html", "css", "javascript"]
+    },
+    {
+        "_id": "035",
+        "date": "27/08/2021",
+        "name": "Among Us",
+        "url": "2021-08/among-us",
+        "stack": ["html", "css"]
     }
 ]
