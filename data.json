@@ -243,5 +243,12 @@
         "name": "Among Us",
         "url": "2021-08/among-us",
         "stack": ["html", "css"]
+    },
+    {
+        "_id": "036",
+        "date": "28/08/2021",
+        "name": "Simple Slider",
+        "url": "2021-08/simple-slider",
+        "stack": ["html", "css", "javascript"]
     }
 ]
