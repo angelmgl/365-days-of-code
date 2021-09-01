@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --primary-color: #f39c12;
+    --secondary-color: #f1c40f;
+    --red-color: #FF6584;
+}
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 95%;
+    max-width: 1000px;
+    margin: 5vh 0;
+    position: relative;
+    display: flex;
+    box-shadow: 10px 10px 60px rgba(12,12,12,0.25),
+                5px 5px 10px rgba(12,12,12,0.4);
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+body::before {
+    content: "";
+    width: 25vw;
+    height: 25vw;
+    position: absolute;
+    top: -5vw;
+    left: -5vw;
+    background-color: var(--red-color);
+    border-radius: 50%;
+}
+
+body::after {
+    content: "";
+    width: 50vw;
+    height: 50vw;
+    position: absolute;
+    bottom: -15vw;
+    right: -15vw;
+    background-color: var(--red-color);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.info, .login-form {
+    padding: 20px;
+    position: relative;
+    flex: 1;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    max-width: 350px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.svg {
+    max-width: 400px;
+    margin: auto;
+    display: block;
+}
+
+/* login form */
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3F3D56;
+    color: #fff;
+}
+
+.login-form div {
+    width: 100%;
+}
+
+form label {
+    margin: 10px 0 3px;
+    display: block;
+    cursor: pointer;
+}
+
+#email, #password {
+    width: 100%;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#remember {
+    cursor: pointer;
+}
+
+.row {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row button {
+    width: 150px;
+    height: 35px;
+    color: #fff;
+    background-color: var(--primary-color);
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.row button:hover {
+    background-color: var(--secondary-color);
+}
+
+.forgot {
+    color: var(--red-color);
+}
+
+.create h3 {
+    text-align: center;
+}
+
+.create a {
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .info {
+        display: none;
+    }
+}
